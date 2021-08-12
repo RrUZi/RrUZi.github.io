@@ -2,7 +2,7 @@
 **_Master Student_** - PRC State Key Laboratory of MEAC
 
 
-Email: ![yyhuang_ieu@163.com](yyhuang_ieu@163.com)
+Email: yyhuang_ieu@163.com
 
 
 ## Areas
