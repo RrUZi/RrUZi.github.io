@@ -21,7 +21,7 @@ I conduct research in the following areas
 
 + **Generating Malicious Code Attack Graph Using Semantic Analysis.** Ping Yang, Hui Shu, Fei Kang, Wenjuan Bu, _Yuyao Huang_. Computer Science, 2021, 48(6A): 448-458. DOI: [10.11896/jsjkx.201100074](http://dx.doi.org/10.11896/jsjkx.201100074)
 
-## Rewards
+## Awards
 + **National Cyber Security Scholarship**, 2019, CIDF
 
 + 🥇**First Prize** of National College Student Information Security Contest, 2018, CISCN
