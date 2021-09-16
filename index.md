@@ -1,8 +1,6 @@
 # Hwang
 
 
-Email: 
-
 Github profile: [https://github.com/RrUZi](https://github.com/RrUZi)
 
 ## Areas
