@@ -11,7 +11,7 @@ I conduct research in the following areas
 + Network protocols
 + Malware analysis
 
-## Publications
+## Publications <a href="https://orcid.org/0000-0002-1574-6644"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>
 
 + **Protocol Reverse-Engineering Methods and Tools: A Survey.** _Yuyao Huang_, Hui Shu, Fei Kang, Yan Guang. Computer Communications. 2022. **(Accepted)**
 
