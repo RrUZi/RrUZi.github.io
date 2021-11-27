@@ -13,7 +13,7 @@ I conduct research in the following areas
 
 ## Publications <a href="https://orcid.org/0000-0002-1574-6644"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>
 
-+ **Protocol Reverse-Engineering Methods and Tools: A Survey.** _Yuyao Huang_, Hui Shu, Fei Kang, Yan Guang. Computer Communications. 2022. **(Accepted)**
++ **Protocol Reverse-Engineering Methods and Tools: A Survey.** _Yuyao Huang_, Hui Shu, Fei Kang, Yan Guang. Computer Communications. 2022. [![DOI](https://zenodo.org/badge/doi/10.1016/j.comcom.2021.11.009.svg)](http://dx.doi.org/10.1016/j.comcom.2021.11.009)
 
 + **A Software Upgrade Security Analysis Method Based on Program Analysis.** Xiaoshao Lv, Hui Shu, Fei Kang, _Yuyao Huang_. The 2021 IEEE International Conference on Computer Science, Electronic Information Engineering and Intelligent Control Technology, CEI 2021, Fuzhou, China, Sept. 24-26, 2021. [![DOI](https://zenodo.org/badge/doi/10.1109/CEI52496.2021.9574561.svg)](http://dx.doi.org/10.1109/CEI52496.2021.9574561)
 
