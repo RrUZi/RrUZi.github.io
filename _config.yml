@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "RrUZi / Malware Analyst"
+title                    : "RrUZi / Malware Protocol Reverse Engineering Analyst"
 title_separator          : "-"
 name                     : &name "Dr.Hwang"
 description              : &description "no description"
@@ -24,7 +24,7 @@ author:
   avatar           : "coder.png"
   name             : "Hwang"
   pronouns         : # example: "she/her"  
-  bio              : "Malware Analyst"
+  bio              : "MalPRE Analyst"
   # location         : "Earth"
   employer         : "Key Laboratory of CSME"
   # uri              : # URL
