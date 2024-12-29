@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "RrUZi / Malware Analyst"
 title_separator          : "-"
-name                     : &name "RrUZi"
+name                     : &name "Dr.Hwang"
 description              : &description "no description"
 url                      : https://rruzi.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,11 +22,11 @@ repository               : "rruzi/rruzi.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "RrUZi"
+  name             : "Hwang"
   pronouns         : # example: "she/her"  
   bio              : "Malware Analyst"
   # location         : "Earth"
-  # employer         : "Red Brick University"
+  employer         : "Key Laboratory of CSME"
   # uri              : # URL
   # email            : "none@example.org" 
 
