@@ -1,0 +1,356 @@
+[
+    {
+        "name":"mirai.catddos",
+        "message":[
+            {
+                "desc":"attack_udp_openvpn<11>",
+                "spec":[
+                    {"name":"Duration", "len":4},
+                    {"name":"AttackVector", "len":1},
+                    {"name":"NumOfTargets", "len":1},
+                    {
+                        "name":"Targets",
+                        "spec":[
+                            {
+                                "name":"Target",
+                                "spec":[
+                                    {"name":"IP", "len":4},
+                                    {"name":"Mask", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Target",
+                                "spec":[
+                                    {"name":"IP", "len":4},
+                                    {"name":"Mask", "len":1}
+                                ]
+                            }
+                        ]
+                    },
+                    {"name":"NumOfOpts", "len":1},
+                    {
+                        "name":"Options",
+                        "spec":[
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"dst_port", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"src_port", "len":2}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc":"attack_method_udprape<12>",
+                "spec":[
+                    {"name":"Duration", "len":4},
+                    {"name":"AttackVector", "len":1},
+                    {"name":"NumOfTargets", "len":1},
+                    {
+                        "name":"Targets",
+                        "spec":[
+                            {
+                                "name":"Target",
+                                "spec":[
+                                    {"name":"IP", "len":4},
+                                    {"name":"Mask", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Target",
+                                "spec":[
+                                    {"name":"IP", "len":4},
+                                    {"name":"Mask", "len":1}
+                                ]
+                            }
+                        ]
+                    },
+                    {"name":"NumOfOpts", "len":1},
+                    {
+                        "name":"Options",
+                        "spec":[
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"dst_port", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"src_port", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"payload_size", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"payload_rand", "len":1}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc":"attack_udp_r6<13>",
+                "spec":[
+                    {"name":"Duration", "len":4},
+                    {"name":"AttackVector", "len":1},
+                    {"name":"NumOfTargets", "len":1},
+                    {
+                        "name":"Targets",
+                        "spec":[
+                            {
+                                "name":"Target",
+                                "spec":[
+                                    {"name":"IP", "len":4},
+                                    {"name":"Mask", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Target",
+                                "spec":[
+                                    {"name":"IP", "len":4},
+                                    {"name":"Mask", "len":1}
+                                ]
+                            }
+                        ]
+                    },
+                    {"name":"NumOfOpts", "len":1},
+                    {
+                        "name":"Options",
+                        "spec":[
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"dst_port", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"src_port", "len":2}
+                                ]
+                            }
+                        ]
+                    }
+
+                ]
+            },
+            {
+                "desc":"attack_tcp_ovhtest<14>",
+                "spec":[
+                    {"name":"Duration", "len":4},
+                    {"name":"AttackVector", "len":1},
+                    {"name":"NumOfTargets", "len":1},
+                    {
+                        "name":"Targets",
+                        "spec":[
+                            {
+                                "name":"Target",
+                                "spec":[
+                                    {"name":"IP", "len":4},
+                                    {"name":"Mask", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Target",
+                                "spec":[
+                                    {"name":"IP", "len":4},
+                                    {"name":"Mask", "len":1}
+                                ]
+                            }
+                        ]
+                    },
+                    {"name":"NumOfOpts", "len":1},
+                    {
+                        "name":"Options",
+                        "spec":[
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"ip_tos", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"ip_ident", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"ip_ttl", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"dont_frag", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"sport", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"dport", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"seq", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"ack", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"urg_fl", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"ack_fl", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"psh_fl", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"rst_fl", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"syn_fl", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"fin_fl", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"data_len", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"len", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"range", "len":2}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"data_rand", "len":1}
+                                ]
+                            },
+                            {
+                                "name":"Option",
+                                "spec":[
+                                    {"name":"Type", "len":1},
+                                    {"name":"Len", "len":1},
+                                    {"name":"source_ip", "len":4}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
